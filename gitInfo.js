@@ -10,6 +10,8 @@
 */
 
 //CODE HERE
+let gitDefinition =
+  "I like to think of the git terminal as a file explorer just without the user interface. you can navigate, create, delete, rename files or folders, open coding projects, add changes from a coding project and save/share them from your local files to the cloud remote storage a.k.a github";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+let gitHubDefinition =
+  "GitHub is basically a cloud drive, it saves your local files to a remote location, like an off shore island where everyone else can put their stuff to which we all share.";
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +30,8 @@
 */
 
 //CODE HERE
+let gitInitDefinition =
+  "git init is set at the base repository of a project (inside the folder where all the other files for the project is) this creates a new git repository";
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +40,8 @@
 */
 
 //CODE HERE
+let gitCloneDefinition =
+  "targets an existing repository and then creates a copy for you to use";
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+let gitStatusDefinition =
+  "git status will display the state of the files and which ones have been staged, if they are red then you need to add them (with git add .) once you type git status again it should turn from red to green";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,7 +63,10 @@
 */
 
 //CODE HERE
+let gitAddDefinition =
+  "git add will save the current state of your project into your commit history";
 
+let gitAddCode = "git add .";
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +77,10 @@
 */
 
 //CODE HERE
+let gitCommitDefinition =
+  "git commit will allow you to add a comment to your push";
 
+let gitCommitCode = `git commit -m "initial commit"`;
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +89,5 @@
 */
 
 //CODE HERE
+let gitPushDefinition =
+  "git push will send your added changes of the project into your remote repository on the github interface with the commited message";
